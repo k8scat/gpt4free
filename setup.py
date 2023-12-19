@@ -11,14 +11,14 @@ with codecs.open(os.path.join(here, 'README.md'), encoding='utf-8') as fh:
 with open('requirements.txt') as f:
     required = f.read().splitlines()
 
-VERSION = '0.1.9.4'
+VERSION = '0.1.9.5'
 DESCRIPTION = (
-    'The official gpt4free repository | various collection of powerful language models'
+    '[Fork] The official gpt4free repository | various collection of powerful language models'
 )
 
 # Setting up
 setup(
-    name='g4f',
+    name='g4f_fork',
     version=VERSION,
     author='Tekky',
     author_email='<support@g4f.ai>',
